@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AVIDO — Reserva tu Vehículo Eléctrico</title>
+<meta name="description" content="AVIDO es el primer vehículo eléctrico compacto de dos plazas diseñado en México. Cero emisiones, innovación nacional. Reserva el tuyo hoy.">
+<meta name="keywords" content="AVIDO, vehículo eléctrico, carro eléctrico, EV México, compacto, dos plazas">
+<meta name="author" content="AVIDO">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAvaUlEQVR4nO19yW4rS3rmF5mkKGriPJPJ6VzDDZQH2IBhVG+887q8MfwGfgkvvDHsl/DWr9EoGDBgGOguw2101RXnSZwpaqIoZkYvFP9RHh2KZKSSZOqIH3BwL0MZGZER8cfwxT+wk5MTjgMO+KRQ9l2BAw7YJw4CcMCnxkEADvjUOAjAAZ8aBwE44FPjIAAHfGocBOCAT42DABzwqXEQgAM+NQ4CcMCnxkEADvjUOAjAAZ8aBwE44FPjIAAHfGocBOCATw3XvivwCpwxBs658Xd/93e/++Uvf/k/5vO5rqqqyjmHYRicMcZubm7+93w+f2CMMf4MAABj7LsXUhrnfNnfGQB+fHwcPT09/aLrOmfP+PqAYRhcVVU2m806d3d3ld/+9reLf/zHf/wlAJVz/n2BAFRV1XVdV//yL//y13/zN3/jenx8hKqqLx/Jl5tgLKv/dw20/Ds2et9b5W5S5lvvXdX2q/6+SV3Mfff6XYwxLBYL/O3f/u0vN/mGN8twmEEMhxiUv/71r5t/+qd/mjEMw1AUxTErVaVSmfzRH/2RW9f1UyF/3/W8y+VaLBYL11//9V//r3/+53/+iz1U81Pg4eEB4XD4Xe9w1AogZn+4XK4bn8/nMQwDuq5/N8B0XTcAcLvkgnPOFEVRls1KNAuJ1UG/uLhw+3y+0Wg0OsWLwH4DwzAYAPzXf/1X4OnpyQCgWxViwzAAAObshmGs/L0uXbY8q7BS/ibQdZ2rqsp+85vftAFk3vMupwkA55yzSCQySCQSBUVR8HpLIp5TxH93VjdFUZhhGEooFDpNpVI/j0ajjKIoXNf1756lVaHX6/lub291v9/veq6ufH3NW6e30pY9sypdtjyrsPNdZnDODVVVlUajMcY7BcAxWwvgWQAAIJVKDU9PT6Hrur7LQb4OhpgeNU27EUlvbR8ZAAwGg1in0xmLs4qxizp+BtA4+fnnnyfvfZcjBUDTtAcA4G+clOgQtC/kcjmD6rEM4qDKOedqu92+B162Fge8H7SU/u53v3v3uxwlAIQvX77suwpLQVubQqFwbP69BExRFAPAUa1WGwAvwn2APeCco9lsHr33PY4SAMMwFADI5XJnwMoBthfQgS6VSnkAGKvqRwO+VCrdAW+vZgfIgXPOGWPs+vr6qdFo+N77PkcJAA2oTCZzCrx9auScW+a03wOqTzabjQHQhcAurQjVr1qt7qp6nwKGYYAxxrrd7l2v1wu9932OEQBigFRVvU4mk2GR5qgVgOqTTCYDwWCwK9LeEgAGANVq9QwAnHSX8ZFBK2m73e7P5/Poe9/nuE7x+/3jWCx2wTm3jee3EYxzzoPB4HE0Gh0BKw/CDADa7Xbo+vp6RrfWO6zrDwlqw1qtNrbjfY4ZYYwxAwDS6fQwEAi4DcMwHLgCQNd1XVEUaJo2FWlv0TsMAEajka/X6+mMMXZggt4PWnHL5fLMjvc5SQCIAnX0oZEGsaZpOrB6BWCMcV3XT5rNZk+kOfKbPiLK5bItk6OTBAAAkM1mHT1IaFv2008/HQGrmSoh1J56vT4Wzzr62z4CaFfQ6XRsuWZ2jADQQMrn86fm304D51wBgGw2GwIAXdff7AhxF4BSqXQLHO4C3gvOOVRVVWezGVqt1rsZIMA5AsAFpTgrFApBYDUDtM+bYNJvSaVSHsbY46pnacKvVCqHgW8DDMPgANDv96f9fv/HEQChBcoURTEymYxfpDlyBTBRoamzszNiglaebuv1+slh+/N+0Ara6XQms9ksYMc7HSEAEJdJfr+/F41GTwQF6kgBAMAMwzCCwaASi8X6wMq7AAUAWq1W5Pb2lrtcLtdBEKyD2q5SqfQAKKqqfq+KKwlHCAANoHg8Pg4Gg6Rns/G/HdcVnHN+dHSkpNPpG3P9X4PqNplMjgaDwcrtkvl5+v+DrHwLYuAajcYTlthhWIGjBCCdTt8Q1+7QHRCAl5kon88/ASupUAUAHh4eku12+0CFvhMmNehH8fvdFytOEQAAQDabNYCPozqczWbXth8xQdVqdQg8WzNtu14/Kuj8VS6X11LQm8JRFmGFQuGreuuqFWDfkyh1RLFY9AEvWqzLoCiKYRiGUqlU7kTeNytv/mYnr4D7gLCxYI+Pj7zdbvtE2rsbyQkrACcuPZ/P+wDnMkAEql86nQ4CuBcdsVIqy+Xyx1jWHArDMLiiKMpgMLjt9Xox4GWL+R44QQBIbeBR07QQ4HwBoJknnU4HT09Pb0T9Vz5brVa9gPO/zamgVb/X683u7+/fbQhD2LsA0JbA7/dfxePxGPCsOrxvtmcVhIG8EQqFTuLxOFGhS2d4k1boxWw2w1veJ15/o9O+WQbb6Duyqa7Vaj0AF4qirDRI2hROEAAAQDAYfAgGgx9CZZioUI/HwxKJxLVIW2kXMBwOfb1e71ZohX737I+yMGyr+2hclEqlle0ti70fgsXMqeRyubHb7cZisdBVVd17vdZB+KZBLpdb/Ou//utaz2j39/fhdrvd0zTt7K0VYB0451xf5oflg8Hlckn3LykhVqvVOfBjCQAAIJvNPr5O2zTvPkAdQlToKgN54SrRVa/Xe3/+53+eEsv5N0p0S3wfffObWBArg8dp4BLuHQl0dqpUKrZRoIADBICQz+cdUxcZCO3VlbORmK1YuVy2pBVKhuA///xz/5/+6Z/+r1kGzCvHulXI/PfXK86yvJtuZyjv6zMM8I2HOWYYBg+FQq6///u//59HR0dSA5gxxp6enoxGo3EhU7d12PugIwq0UCj4gQ/FkigAkM/nI3ihcpe6SiRYpUINw4CqquCcq//yL//yF1be4RT8wR/8wf/5h3/4B7ZYLBabrmZCN0zp9XpP3W43LNI+/gpAhvCMsTtN09aqQZvybb9ya6CqKgOARCIROD4+7s1mszh7w1muiQo9AeSFXFEUcM55JpMJapr2u1arlRcsyN5JjE2hqupC13XXH/7hH05k+48GSafTad3e3qZFmi3fvvcVAADOz8+vU6mUIz1BrAADgGg0ehYMBq/a7fZX576vQWmdTudoNptxt9st6+ac6bque71eNR6PT+r1uhvAQtd1R/TfhmCLxcJVKBSkLbnIyW6r1XrknNv6zXudQYg7j8Vi/WAw6BYMx4cQAMYYDMMwjo+PeSqVGou0lWrRV1dX8eFw+KiqqrqMCl0FogHT6fQDlf+RYLrtvwCkJzqyrBsBz+7n7arXvgUAAJBOp6dut5uZ01bBKZdE5LmCfJlizWH4/v7+rN1uDwDrWqG5XM5Ktr1DbAPvc7lc0PRbCqVSaa1KuSz2LQAcAAqFgg58XFXhQqEAYL2HCACnwqW3FSZoU7+kjgN9q9frnSWTyRDwcoaSQa1WcwH2XrbtVQCoEzVNc5l/fxTQMk6G/Ku0Qsl6qVKpTAB5YTfdO/gBLD5SW5EAhEKhYTAYdBkS+u5cGMLruo56vR4QabaNWyewCLxQKJwD8lFJ9r0VokGYzWaDeN4Rrf2Aer1uVStUAYBUKhVTVfXeMAzlo3iZoHqmUqnJ6enpEbE6Mu+YTCbGcDj0APauAPtkEYg7f8xkMuTjUVogxWTy7hZRFEWagKIMqVQqdnR01J/P5zHG2FJ6kjqtXC5banNFURjnnEej0ZNQKFTv9XoXb9GuTgMJQD6fvwfkVj/OuaEoitJut4ej0Sgh0mz75r2tANQoZ2dng2QyeWHxNVxVVaiqyt77zwqrQitWOBx2+3y+dS5SGAA0m82zp6cnLusslxTwAoHAUTwen9BrpSu9R+TzeelGNtkBDzjnx3aventbAcTshUgkMo1Goylx2yfVQE9PT6zRaACAsW4A06RDfn2oYQWdCY/Hg1QqxWQkgfh5v9/vTiaTvX6/r62LG9btdsOj0ciIxWKq7FaAImbmcrm7//zP/4SiKPwjmI+SwVChUJCO+0CrRaVSuQagKoqir3JGJou9X6TEYrGp2+2GruuGumFUNV3XDZfLpfz7v/979Ve/+hUYY9/E7F2l10ITr+k313WdpVKp3r/927/9idfrlbqkEoMYmqbd/+Y3v1n1nAIA0+k02ul0urFYLGllLwwAmUzmI838tNV9ymazEUDOVTzN+OVy+cH82y7sTQBo9srlcjNAel9IuuGj+/v7P7GjPpVK5fTq6uo2n8+fUXBsmfyapnFgrc0v55y7a7Xa8I//+I+TskwQCXmxWPSafzsZdDvu8XjGqVRKOqILTRDVatV2ChRwAAtULBallzMaOOVy+ZYxZrjd7jljzLD4T1cUxVgsFv5msyl9SWVigtzm38tAVGi9Xr+RLQd4GQy5XM6HNRFqnAKaEKLR6NAU92Gl4JrZPWFAhGazeS7+ZqvQ700AqPOsxAOjFbRUKnHOufLOfyp1UrVaHVD1ZOsiPERsZKZXrVafNn3/srI0TQspijL7ICsAxX0Yeb1euj3fKC9pgY5Go7tWqxURabaO2X0JADnDZblcLgDI6YYwsZeo1WonwPuXRdLXv7y8vLeQXQGAdDodY4w9rOLnqZ6VSsVSuzMRIDwWi4UCgUDPVHfHgro1lUpJ3/bTAb/X6y2ur69PtlG/vW6BPB7PKJFISF2Ccc65qqrqdDrlzWYzBKy+gZVBuVyWHkzEz8fj8bNAILDOVygDgHq9fiF0/KW2f6SA5/f7lUQi8aHCr/70008bP8tevH+TIfyVYRjndhnCm7EXAVAUha7GR/F4fGM7AOCbWWEyHo/JQ/C7GsUwDAYAtVrtVNRPql045zwUCh2v4+dNVGhgPB5TMHDZuhqKoiCdTs8A5wsAfXM+nz8x/94E1Ne1Wm0CQN3Gt+5FAEz7wuHx8TFfLBaLTQWAltBmszl4enoi3RBbZoVWq+W/vr5+ElusjfLQrCyoUIob9lZmBgDj8Tja7XZvxAHPUqeuC9HkFBBnn8vlpO09TBTo1oR9r1ugTCYzs8CDGwBQLpdHwAuz8h7QwWowGCR6vZ7lgZlMJg1gtVaoWMbdlUrlSiRbusnK5/NH+CAMkNfr7aVSqYhIkzrrAUClUlGB7bhc2dcKAAAoFAqWp69yuUwegt/dKuLiiy8WC6XT6VgO0vflyxdS1nrzu0R91Var9QhYcgSsAECxWAxCWFnJvmBXoJU+FAqNTHEfZPIzwzCMRqOxtbBZexEAkyG8ZV+gl5eXdtadCS/O3kql0ges3QXk8/lzrKFCSWBLpdK9+ffGFWUvfkkVRbHVSZTdMGuBnpycMOH2fuOtrqIoynQ6RafTsdUQ3ox9boG4pmkeqQxCN5xzjmq1Sp6ZbWkU6qzLy0tp1yV0a5zJZCIAFqsuqExUqKV60wwaj8dDZ2dnd/RaK+/aNmis5/N56Zi+JrJjOplMjumVtlVOYOcCQCq8brf7Op1OJ2TrwRhjNzc36PV60qzCKvAXdWXpwUT8fDweD/l8vo5IW8kE1Wq1c7H1kvaPI6hQmKLVO1IACNlsVrqPaAVutVrDxWJBl2AfXwAgZqtQKDSMRCJemX0hFw5SO53OaDAYkA2BXY1CA9OS6xLDMIxwOOyKRCIrByUduDudTng0Gs2Fs1xpA3mPx6NmMpl1rNNeYdJdkr7thyAHKpXKAM9q71txCblzAaA7gFQqNfb5fEdkWL5JXloW6/X6yDCMU1KptgO0lWq1WoHr6+snmYFJVKjb7UY6nd5obz+ZTPz9fv+aWfgIej6bzZKfTJnsO4O4FZ8LM05LZz1BgbJtCfletkAAkM1mpdgWzvnXOLHVanWEZ91wAzavAKPRKHh1dXVPSliyyGQy6+KGMcYY13X9vNFoWPIQQfXSNG3vyoxvgba6R0dHt5lMJg5YM4S3elbaFHtrwFwuZ+XD6KBqu244DczFYhGo1+tdkSb9/mKx6F73jEn57h6Qp0JpJi0Wixciv+MEgb4xEon0wuGwR7Sl9B1As9lcq2X7Huy84Uz7Qmlu1+Qim4m8ttaNVpRKpTIW75cpQAEATdN8wAvVu6IcVCoVS85yaXCIoOIPfIMQTbsGfVMymbw+PT118ecZZqO8nHMoiqLc3d2h0+mERNoPJQALTdOWhgwy64K//k06OrVabSu64SaO3vLVez6fDzLGVtKTJsZpbf1ft4eoFwOAZDIZPj4+vuPWDMu2Cmq7QqHwADyTBJvmNQyDfIGOe73e1hggYMcCwBjjhmEoqqo+ZjKZmEjb9ADMGWNsNBo9tNvtrcwKpoEp3S60v02lUhGv13tLW6o3HmcA0Gg0TriF0UshmqLR6Ek8Hu8CL7euTgH1TaFQkPb5RCtvu90ePz09ndtJdrzGrlcAAwCCwWA3EolsZB1EIM786urqdjweB0Wy3bMCqSufCYes0lqhwWCQhcPh8ZrniHEK39zcMHG5t3EPs5cQTUoymaTbYJmq7gzZbPZ4/VPfgtqiVquNALhsJju+wa5XAADPFKjf73cv2xeyF13wb37TDFev13uGYZxuQzecqNBOpxOaTCb8rYB2y0AXVF6v15VKpa6BF8r3Neid0+nU2+v1bkXZb733LSN/DgCaphHr5KQzABk8LTRNs2LwRGTH2tjK78VOBYAGhKZpd4DcvpA6/PLycoIt8cIkUKPRKNputzsiTbqOtO9ddxv8+PgYe6+zXE3TiBBwzBIgVijmdrvvUqlUAJD3+gcAzWZz60K9F/qsWCxazlsulxfAdmcFzvlRu922qq2JdDq9bjAycbPJrdghm1EoFNaGaNo1qG+i0WgvHo8HxUovpe4CANVqdeuOgPciAJlMZi1X/hrUKPV6fSsUKBUjfM8r5XK5L9JkVoBvrv5X8fNikDDSCrUABQCy2WwY+CZE095h0gIdnp6eyhrCQ1EU5eHhYdFut30i7ccQAJN1EJkySpWv6zo36YbbXLtvUSqVHtY/9S1M/LwPwHyTjqtUKhZq91JWKpUKHB0dOc0+mANAOp2eA9LbO84YY4PB4LHf78dE/h9CADjnnLlcrrtsNiu1L+T82RB+PB6j3W5vxT2GqSwAL5dtMjAJQNTtdt+vokLpwF2tVk9p1pMpi9izWCx2EQqFSClOtspbAdUjm81KC6Su60SBdmazGel7fXwBoIEQCASGiURC6g6AZpCrq6v+ZDKx1Q54SVnfqCvLDEwTP38ajUavgPX8fLfbPXl4eCBXLxvXkxTwTk9PeTwed5RhDNlD/P7v/74fsMYAtVqtGefcs+1v2rkAxOPx/tnZGZexDjJ5BxgZhnFOr9xGPUkArq6uAqPRaCYzMImfPz09VROJxPUm5fR6vbBVA3nSpM1kMo4yjCGfT5qmSd/Y02RXLpcnwPaFeucCkMlk7lVVlb3aI92ZMQBuZ5C0JSDPDZFOp3MnOzDpu8htyYq7AMYY4/P53NdqtazoHn1FPp9/rrgDtkDUz0dHR6NEIuEXadIVq1arW2f7gN0KAACgWCxavrIXQdK22stceG4wDOO4Xq9b9tygadq6R8gO+aharQ5F2bJ2AWSLfIKXy6d9gwNAMBicxONxy3cA5XLZ9mgwy7CzBqPOymQylr0YbMtD8GuIWUctlUpTwNpdQKFQ8EIc/NeUg0qlcmP+LVFPEgA/AOYEASBN11QqNTg7O4OsIbyqqup8PjdarZZfpP0Y9gDUOYVCwQ9IHYChqqq6WCxQrVbpALzVepuu4q24XlEAgMKBbsLPVyqVd0l0Mpk8V1XVkhDZDRMD9MAsaLExxth4PEa/39+Kxu9r7EQAiMpSFOWWgiTI7gvH4zHv9/s7WRap0SuVyhFgzZmTpmlBVVUnm5RTKpUs2SGTBmoikQj7/X4qyxEH4WKxaNkQvt1ud6fT6VbtAAg7XTL9fv84Ho/7ZFSAOecGY4y1Wq3+ZDKxPUjaG2UCADqdzhFtfzYVOhM/HwwEAmNgpU4QAKDX63nu7+91C1QohWhSEonESse8u4Jppb8A5PrKFA9sxDn30m35NupJ2NUKYABAIpEYBAIBj1CCk7oDqFarLc75yTZVY01lMgBot9vh4XC4EHcBGw8swzCM8/NznkgkVm5LaCvX6/Xi/X7/SXk+fVtxy8I0TSPrMtns24CeyWSOAOkDMLF914A9bi/XYWdbIABIp9M3xJW/7ij+Rsxf06wwxxa9A7yqC2OM8el0mmi1Wi0x00p5iFBVla1zlkvlzGazi1ar1RNpljxEpNNpvqqsXYAJgye3232XzWaTIll6jJXL5bnNVXsTuxIAAEAul7Myu9HFyFaCpL1VLAAYhuFpNpvSXs0IuVxupbNcE47r9bqluwBarXK5nLTl1RZAFOggEomQL1ArrlDIEN7u+n2HnQgAdcpPP/0k7c2NzgrlcnlrHoKXgei8Uqk0EuXKXIaROeBaZ7m0zJfLZUtOrmiLIfysblVvZh2o7slkcnx+fn60bKV/C8T2iXhgO2H7gN0KgJFKpd7cF7Illk9cmEHquo56vS59qHoPTBz93Px7w7wkAEFgM7clpVJp5WUDbRGXbBUV4FkBjzF2vypE07ZBt965XI6s3KQvUCaTyXw4HEr5jH0PdiEAX83jstlsXLJcriiKMhgMHq6urraqBfpdwS8G8tJRLEkA0ul0VFXVsdjrLx0MVE6tVju2ogqhKAo45zyZTJ5fXFwMRfl7ZYIsRoTnjDHW7Xano9EoBexmstv6YKLO8Pv9nUQiIWsIT1qg1zc3Nz7skOOmxm80GhdPT09fvVJvAhqUsVjszOfzrTOQV0Q5odlsxlwul0v27ohzzkOhkDcajZIC3l4EwKSaIR3HmPq6Uqlccc7d27D5XoZdCAAAIBKJPIRCIa85bR2IeanX633O+alw17mTLRCV0+12g+Px+EnykooZhmEEAgFXLBZb6SyX7AIGg0Gw2+2SsEh7iFBVFel0eq9UqGgzXdM0irUmk5f6+gFbige2DDtbAZLJ5FhVVal9oUklYef67iQA19fXsU6nQ0EzNqo7DUBFUZBKpR7NaW9hNpsFr66ubkU5330nnZHeOCtxAMhms7ZFzZEFUaCqqj5qmhYVadJ2AJVKxVLgEKvYmQCQJ2Mr+9xKpbIT1dhXIG1NVbjoxqZ3AcDLd+ZyuXVuS6gcQzj9lSrHjHw+v1U/mqtA3xcMBrvRaDQgGCDp8UUmojtj+3ZSCl48hMmAZpBqtboTHaAl5XM8G8hLK5rRIPzy5YsXWM0ECQFQqtWqJYU2E+16gQ2j1W8BtNKPLi4upBx9AfhqEVev163EErCMrQsAGcIXi8VzQF6xbD6fG81m8wjY/cxm2oJJG+DQ/jeTyRxjwz19pVKxdPVvCtEUhgglvGmZdsFEgd4piiLrCYIriqKMx+N5u90OirQfQwDEhzyl02mpD6NGGY1G6HQ6W/cO8EYdAADNZtNKucTPRwA8bhI3rN1uW+oP2mokk8nQ6elpU6TthQkqFArSeQzDgKBAb8fjcUgkf3wBIO777Oysm06npYIkmFVjb25udjormOpAWzDfYrGAjKtEkZ8nEgnf+fn5Oq1Q8nnkXywWUpSrGeFw+CgUCu0laoz4Bl4sFqUpUAgluEaj0TMMg5zh/hACAAAIBoOzQCAgFQvLbAjPOT/ZhWrsa1AnDAaD4HA4pKgxG32DoiiMc86j0ehpLBZbeUFlplz7/b60HTJjDIvFYuHxeKBpGpW1U2/RYqvLyOeTzFaXxkW1Wh3jhRTYCXayAqRSqYHX61VkzOMgZgXhC3QnqrFLwABgOp2GOp3OreT5BYZhGC6XC6lUaiLSVgrAzc1NyESFWqqwiQq1lN8iOAC4XK77ZDJ5AlizA65Wq9JqJ+/FTlaAbDZrWaOyVCo92VYhSXBhIM8599ZqtZ5Ilp6d8vk80bhvPUK+Qj21Wk3aKa8ZmqZJq268FzTRRSKRZjqdTgoKVFoCd02BAjuiQb98+WK5U2q12s5UY5eBtl6lUula1EO6IrlcblPlLlav11cK/BJlOEonU8y1Gqh2w3zZafIFKlU+55zX6/WT7dTwbWxVAIj7LhaLfkCKAfpqCL9L1dhlMN1QSq9ErwblyoMdlfPzzz9b8olv0kANYccuUmisky9QGXDOucvlct3c3LBWqxUGdhv0bxc3wYt0Oi1lHmfSDLy9urraiXH0W6ByyU+N7D0GAOTz+Siw2oMzlVOr1SytllRWIpGIeTye0SoNVLtBTfLlyxcDkLad4ADQ6XSGo9Fo52zf1gSAdEOOjo5uk8lkSqY8apRmszm5v7+nRtlSTdfWBcCzVujj46OU4Tr5FU0kEqGTkxPyFbryLqDVap0vFos399DLdIFEWaSB6g2FQoMlWbcGkxaotMETsX2tVmuk67pPJP8YAgA8B0mIRqMeK2rQtVqtD8AlDoh7XQG63W54NBoZMgbypKkZiUS8kUhk3V2AAgBXV1eR8Xi8sBA3jBmGYZydnanxeHwKvO2W0W6ILctTLpfzUV1ksgNAuVweAlt3e/kdti4A6XT6+uTkZGk8sHUolUq32JEh/AowALi7u/N2u90RsLmnOMYYdF3Xj4+PQc5yV30LezbE95H2qVWlOPJLugvQpZXL5brXNE3K67cZu3B7uQxbFwBN0ygaurQa9DozwV1A7KU55/yCtDWtMEGZTIa0Qt8sBwAMwzhrt9tTi3XlAFAoFMgYf+sTB5URi8W6sVjsPYbwCrD7re7WBIA6NJfLKebfG1VK7J0rlYqVa3XbQZdwpVKJDFakBbNYLK5ta7oBrVarU8C6h4gvX76cALthU0gAUqnU9dnZmfRKr6qqCjyrgQC77+utN1Aul/PKPM+FIfz9/f3TrhykbgoykJeBiQnaNG6YZRcwVFY2m/UBeNpFu1Edc7mc9EpP8n19fW30er2dGcKbsS0B+GoIn06nL4DN94VEgfb7/cder0eG8HsVAOqoarUqHdzPdBcQwJq4YVROpVKxqhXKACCVSkUVRZnR9s3KuzaFiQGSXulNdPek1+uR28vdhu7dxksF+8FcLteDiGIooxtCmoGtx8fH810ZR68CfzFc98kayJsGZcztdl+vGZRkiG85bphhGEYsFjuLRCItkbyTc5TEbfdX0BavXq8PDcM4ZvLOpN+NbQkAUaDS5nG0gjabzTkAy7EE7AR1SrfbDQ4Gg3sxqDfVCgXnnIfDYSUQCNzSK5c9Swby7XY7dH19La1+TYusz+dzRSKRXahF00qva5rmF+VJa4HW6/UJAPcu/L6+xlYFIB6Pj8/OzpiMdZBJJWACvBwM9wmTtma82WxOgM0pSuLnfT6fJ5VKDYHVYZMAYDweRzudTlukSX0/tXU2m71eVZYdMK/0mUwmJMqTyU9s304N4c3Y2hkAeI4HRpdBsi8olUr7UH9+E6JzeLvdftNzw1ugZzcNZmcYhqfdbs/F/1uqbzab3frEYV7pE4lESKRZcYa7ty3u1s4AAPDlyxfL7280GsfA/lQgXuGrh4jf/va3PcDabEVxc1epRVOk+mq1aln9GgCKxSK139YGl4kCHZ2cnEjZAYv8jHOOWq12DrxsAXeJbZ64eTabldrDc/4cI+r+/h6NRmMvZpBvgTr78vJSemWib5AZlFYi1QsoAJDNZkMA9G0ayJso0AdAmgLliqIo0+n0odPp7NTtpRlbKXCxWLgAMKGau3E5JuPom8FgQAKw98BvwDdKcQpgTStU6MosNqRCLQk+7cFTqZQXO3KRUiwWpfNQXw8GA2MymezcDoCwjcFF5nHXqVQqCGw+WExaoP3Hx8ewSHPECkD1aDab/sfHx6/L9yag79c0Laaq6uMqD85UTqVSubBChdIePJFIRP1+f1ekbWUFoEu9XC53ClgzhG82m535fO4jnaItVHMlbBcAauxAIDCOxWJSzAAJgNAM3Jcd8FKYtEJDsobrJgP5s2Aw2KVXrsozHA490+mU9Otl68oDgYB7nV/S90IIgFEsFukAbEUHaIwd+gJ9DdsFwBQntndxcSEVJ5YaoVKp7DIazEYgAbi7u/M3m81ryRUAnHPu9/uPEonERmrRIm7YrWzcMNJAdblcyGQyloJubFiOAQDHx8eDRCIRBTZ3eQO8THbkC3RfdPfW9tfxeHxhZUYAgHK5bHd17AAxQSfVanUAyLkeIYYkl8utNHkUulB8sVicNBqNgUizNIBzuZwuyrKSfR04AITD4WE0GrUU2wAALi8v93rGs/2mlRo7n89LO8Ol/W61Wj0F9kOLrYJJWc2Stibw4jltFRXKGDM45x5xQ2pZKzSfzx8pirJQFEW34qZkFRRFWRiGwdPp9PT09FTRdV0nzU6JevJ2u02xzWyt36awXQCo8Sk+lkQ+MMbYzc3NotVqkSG8IwWgVCpZtlrSNG2tQt3zrsdQSqWSJWe5Jg3UgGEYrvl8bns/G4bhAoBkMik90ZnobtZut8nmey8rwbYEgOfzeT8gpwWqqirrdrvjfr9PoZQcJQAmhuYYsEaFZrNZP/DVk9pKb3eNRsPStEhlFQqF03w+/2+v/vbN6kP/z1+5W3n9/+IcA+CZwnS73fzx8ZH92Z/9mbTNhmEYEH192+/3abKT/k47YKsAMGEIzxi7SafTMZG8qSE8AKDdbj/oun6xD83AdaAtWbPZ9N3d3eknJyeKUPTbpPMVAEilUkFFUe4NwzjBGqU4s6DRINwEdBj9xS9+kfmP//iPDLUj5X/rPW+1tzm/WVAMw4DH4wHnHG63e+Ptj+hY1mq1BvP5PCfS9jLZ2b0CcADM5/MNEolEUtz2bZbxWelLFYbwmqI8byttrp8tGA6H4X6//5jL5U50XeebbH3JTDCZTMb8fn9tNBpl13HfV1dXF3d3d7rX67U6OLjL5doqlawoimJB/8cAoNRqtQGArKqqxr762tZ9F+1Vk8nkNBgMeiRmR7OqgSXHULsA7VNns1mo1Wp1RZrU3tfn8yEUCq3UfiSh6Pf7kcFgMJelQgmMMaaqqmub/2Qv6oAXBb9qtXqPPTs9sFsAAADJZPKO9OBl33F5eem4gW8GRXO5vLyUMpA38/Oapq29C2CM8dls5m80GtKC9rrcbf6zApKZUqlkKb+d2MoKYIUCpZWiXq9buVbfGejCplwuW16pCoXCWmMV8V53rVbb6m3uPkB93Ww290qBAjYLwGsKdNNBTJqB19fXc6JAnXYHQKDOury8tPyOTYLZkaDVarU78ewPIwCKoiiz2QxOoLu3IQB6Pp+/kMln0gK9Hw6HYZHsSAGAqFez2fSS4G6c8YWeJCFfm7darTpGH8oO0Lmw3+9Pu93u3p0e2CkAZB9qaJoWBqR4ctIM7C4Wi52GyJEF1avVagXu7u6YjN0utYcwH7zhKwzk6Z31ev3Iloo7BLSStdvtyWw2u9h3X9smADTWz87ORtFolCLCS31YpVKZAHhTVdgJoIE5HA7Put3uRiaOprwMAOLxeOD8/Px6zbPkicL/+PhoOW6Y00AC0Gg0hgCO9mEIb4adAkCG8KNoNHohtgdSdgClUmkGOMMQ/i3QrD2fz+O1Wq0BbG4JpSgK03VdD4fD7ng8TqaVS/PSYO/3+1/jhmFLll27hCn22878l66CnQJgAEAmkxmrqkpq0FLvuLy8VAHH2AG/ha9B3CqVipRSHLWHy+Vi8Xh8JRNkUr+OklNeq85ynQTTfc+j+fe+YPsWiChQqUo8X/tyihIO5x6Av0G9XrcUEQUACoXCDFg5AEjQ2HsN5J0E2hZXq9W9BD9/Dds18Iji2xTEpNzc3LBOpxMCnEuBmsAB4L//+7+lZy/q8GKxuJYKFcLBarWatKA5EaTxO5/P9Xa7fSHS9trXtukCkS5HoVDwi6SNDeFVVUW/35/c3Nx4FUUxBDPg2NmOMcYVRTGazeY5AGm7XQDIZrPnWDOjm9SvHy1V1HngiqIog8Fg1ul0osCPIwCcP4cUvc9mswFA2g6Ylcvl/uPj40821WerIP6+XC77xuPx3O/3uzfV1iRhyWazMQCPuq578YZaNB0tKFKmLKvmNOi6zl0uF2u32537+/vEvilQwCYBoA85PT2dxOPxuEiTUoK7u7u7+b3f+72Sqqpc1/Wv0mM+X75+5Ws132VY98yygbvBezmenVjNbm5uZoFA4EhohW7cmYlE4uj4+PhhNpt5zbr2r+rxVf2aLgtl1KKdBurrTqcz45wf7/sADNgnAOCcIxKJTAOBQEzm2p7M6H71q1/9yV/91V/ZUZ29YNPBTx4iIpFIIBaL/b9arRZkzyaQ36kD011Ap9OJXF1dTROJxDnWGNE4GTQuKpXKGHimu/et8m7LIZgkOZPJTI6Pj1UrgZJlHiejDLNxxkcBYwyGYRgejwepVGqdVigA4Pb29qzX6y0YY8yqr1An4fLykijgvXeerQKQy+VmgHXFrdcD+/Vr3hrwy/K9fnbV32XzvFf4qH00TVunFUpU6HGtViN/Qh9eAijQiBMmL1u2QLRXzeVyLsC6R2PzXnjZoKC01w23yeqxRvVYOo8dKBQKa9tfTC5qrVa7Bl5Ys11ik7PWJlBVVdV1Hc1m0yfeu/etnC0rAH1IPp/3AR+frdgVxISxkgkxUaHrLs4cDboDGI1G82636xjHx3YIAOecM875jQUt0M8KBQA0TYsCYCYPEd+BBkm5XP7QVCjd67Rare5kMomJtL1/y7sFQGxbmNfrXaRSqTORZvnDZEzt3mOWt09Q+6TT6aDH4xmKtJUH4Vardfb09GQQFbpL2NHOtC1utVoP2LMdsBl2CAAHgEQicRWJRMhI5OONyh2CLgljsZgvEomQyePSZ2mW7HQ6sfF4rIuLNEcMHkmQAuEIgCIcH+99nNghAAYAJBKJa4/H45KNEvIZwRhji8Vi4fV6eTqdJgF4izlgAHB7e3vU7XZvAOskgxNAZxmnwLYV4L0U6GcEY4xpmkaH26XPkP2BYRjB9zrLdQKq1ereDeHNeLcA0G3lly9f1mo3HvA9crnc2vYi+4NqtSrlisUp4Jx/tWhzEgUK2KgOnc1mjwC5MJmfGaa7k2NgtYE8rbKVSsURRiRWMR6Pn3q9HnkM2Xd1ANggABQoOZfLWY4Ssgmc0mB2gSaKXC4XAKCvmhHp20ulkiNdRa6DYRhceP24GQ6HKZHsiJnSji0Q83g8N8lkcu8+Xj4YFABIp9Nxt9s95as9RDAAaDQa57qufzgDedqy1Wq1HufcoyjKToL3bQJbpDASifSj0WgAkAuT85lh0go9DofDA5H8pnkkAHS73eBkMnn6aJdhJgG4BuBy0hbOFgFIpVKj4+Nj6Lq+NSdO5j7/qBdgZpBW6MXFhTuRSEwAQFGUle7Sh8NhvN1u94GXm9WPAJMhvONiv9kiAJlM5kCBWoBJK3Stn1HxN6Xb7VJQ6p3U0Q7QilUul4kCdczsZYsA5PN5RxxoPirS6fS6R0gtWqUAffhgatG6rvNGo3EGOIvQsGXgFgoF+jDHSPZHALXXly9fTsy/l8G0jXDUTeo6cP4cD2wymSxMhvCOmTDt2gKdAh9XU3FfoPbKZrM+AItNJpBKpfKh2pi2eVdXV/3pdLq3iPBv4d0CcHR0NEylUkHgIACyoPbSNC2iKMqjiK+28iBcr9d9gDVXLPsAnVWazeZ0sVic7rk63+HdjRgOh0eRSOQC2N0t8Ee0BV4GokJjsZgvHA63gI18hR5Np9OFOc3JMFGgU8B5fl/fPWI1TRv5/f4jK4bwnx3UXH6/Xw2Hw+u8vykA0O/3k71e785q3LBdw6TG4TgKFLBBALLZ7IMwinHUh30UkBPhbDY7AVYHzmOM8cVi4W00Gj2R9mHavFwuK4DzVi07BOBD7EWdjkKhsAA2iht2VK1WJ8DHEAByfEwUKBxgBGPGu71CFIvFM845DMNgdpwB3vL48N6+pvyv62h+7z53cPl83rPumeddj6FUKpV7wPkCYBgGFEVRptMpOp2OX6T9WALwi1/8IswYg6qqtgygbbko2Zfrk3UgNqdYLIYBYLFYvNknRB9eXl4ywPl6V2LFYt1udzQajRzhDfo13i0AnHOtWq3CMAxFUZTvdHbM/12W9pZeD6WvWgGWvX/Z31c9+7ocKsucvspH0ev6LSvT/M7XWCwWOD4+hs/n29itfKfTOZnP53h6eoKqqt+VbZcfHyswl7lYLLjX62W1Wm26WCxyO6/MBmAnJyeOXkYPOGCbOBxgD/jUOAjAAZ8aBwE44FPjIAAHfGocBOCAT42DABzwqXEQgAM+NQ4CcMCnxkEADvjUOAjAAZ8aBwE44FPjIAAHfGocBOCAT42DABzwqXEQgAM+Nf4/gV75bLDSGf4AAAAASUVORK5CYII=">
+
+<!-- ─── Open Graph (WhatsApp, Facebook, iMessage) ─── -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tudominio.com/">
+<meta property="og:title" content="AVIDO — El Vehículo Eléctrico Mexicano">
+<meta property="og:description" content="Compacto, eléctrico y hecho en México. Reserva tu AVIDO hoy y sé parte del futuro de la movilidad.">
+<meta property="og:image" content="https://tudominio.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="AVIDO">
+
+<!-- ─── Twitter / X Card ─── -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://tudominio.com/">
+<meta name="twitter:title" content="AVIDO — El Vehículo Eléctrico Mexicano">
+<meta name="twitter:description" content="Compacto, eléctrico y hecho en México. Reserva tu AVIDO hoy.">
+<meta name="twitter:image" content="https://tudominio.com/og-image.jpg">
+
+<!-- ─── Favicon SVG inline (sin archivos extra) ─── -->
+
+<!-- ─── Fonts ─── -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+/* ════════════════════════════════════════
+   VARIABLES & RESET
+════════════════════════════════════════ */
+:root {
+  --black:    #0a0a0a;
+  --white:    #f5f4f0;
+  --red:      #1a6fe8;
+  --red-glow: rgba(26,111,232,.22);
+  --red-dim:  rgba(26,111,232,.08);
+  --g1: #181818;
+  --g2: #222;
+  --g3: #3a3a3a;
+  --g4: #666;
+  --g5: #999;
+  --r: 6px;
+  --rlg: 14px;
+  --rxl: 20px;
+  --t: .3s cubic-bezier(.4,0,.2,1);
+  --nav-h: 68px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: 'DM Sans', system-ui, sans-serif;
+  font-weight: 300;
+  line-height: 1.65;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; height: auto; }
+a   { text-decoration: none; color: inherit; }
+button { font-family: inherit; }
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 clamp(20px, 5vw, 40px);
+}
+
+/* ════════════════════════════════════════
+   UTILITIES
+════════════════════════════════════════ */
+.section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .72rem;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: .85rem;
+}
+.section-tag::before {
+  content: '';
+  display: block;
+  width: 18px;
+  height: 1px;
+  background: var(--red);
+  flex-shrink: 0;
+}
+
+.section-h {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.9rem, 4vw, 3.1rem);
+  line-height: 1.05;
+  letter-spacing: -.025em;
+}
+.section-h em { font-style: normal; color: var(--red); }
+
+.section-p {
+  color: var(--g5);
+  font-size: clamp(.9rem, 2vw, 1rem);
+  max-width: 480px;
+  line-height: 1.75;
+}
+
+/* Reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* Shared image placeholder */
+.ph {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+  color: var(--g3);
+  pointer-events: none;
+}
+.ph svg { opacity: .35; }
+.ph span {
+  font-size: .7rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  opacity: .4;
+}
+
+/* ════════════════════════════════════════
+   BUTTONS
+════════════════════════════════════════ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 500;
+  font-size: .9rem;
+  padding: .72rem 1.6rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: background var(--t), transform var(--t), box-shadow var(--t);
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:hover, .btn:focus-visible {
+  background: #2c7ff0;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 28px var(--red-glow);
+}
+.btn svg { transition: transform var(--t); flex-shrink: 0; }
+.btn:hover svg { transform: translateX(3px); }
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  background: transparent;
+  color: var(--g5);
+  font-weight: 400;
+  font-size: .9rem;
+  padding: .72rem 1.5rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.15);
+  cursor: pointer;
+  transition: border-color var(--t), color var(--t);
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn-outline:hover, .btn-outline:focus-visible {
+  border-color: rgba(255,255,255,.4);
+  color: var(--white);
+}
+
+/* ════════════════════════════════════════
+   NAV
+════════════════════════════════════════ */
+nav {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 300;
+  height: var(--nav-h);
+  background: rgba(10,10,10,.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255,255,255,.05);
+}
+.nav-inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.logo {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: -.01em;
+  flex-shrink: 0;
+}
+.logo span { color: var(--red); }
+
+/* Desktop links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.8rem;
+  align-items: center;
+}
+.nav-links a {
+  font-size: .8rem;
+  font-weight: 400;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--g5);
+  transition: color var(--t);
+}
+.nav-links a:hover { color: var(--white); }
+
+/* Hamburger (mobile) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  -webkit-tap-highlight-color: transparent;
+}
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: transform var(--t), opacity var(--t);
+  transform-origin: center;
+}
+.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* Mobile drawer */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  inset: var(--nav-h) 0 0 0;
+  z-index: 299;
+  background: rgba(10,10,10,.97);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity .25s ease, transform .25s ease;
+  pointer-events: none;
+}
+.mobile-menu.open {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+.mobile-menu a {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--g5);
+  transition: color var(--t);
+}
+.mobile-menu a:hover { color: var(--white); }
+.mobile-menu .btn { font-size: 1rem; padding: .85rem 2rem; margin-top: .5rem; }
+
+/* ════════════════════════════════════════
+   HERO
+════════════════════════════════════════ */
+#hero {
+  min-height: 100svh;
+  padding-top: var(--nav-h);
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero-grid-bg {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(26,111,232,.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(26,111,232,.025) 1px, transparent 1px);
+  background-size: 55px 55px;
+  pointer-events: none;
+}
+.hero-inner {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: clamp(2rem, 5vw, 5rem);
+  align-items: center;
+  padding: clamp(3rem, 6vw, 5rem) 0;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  background: var(--red-dim);
+  border: 1px solid rgba(26,111,232,.25);
+  color: var(--red);
+  font-size: .7rem;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: .3rem .85rem;
+  border-radius: 999px;
+  margin-bottom: 1.75rem;
+  width: fit-content;
+}
+.hero-tag::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  background: var(--red);
+  border-radius: 50%;
+  animation: blink 2s infinite;
+  flex-shrink: 0;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.25} }
+
+h1 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2.8rem, 5.5vw, 5rem);
+  line-height: .95;
+  letter-spacing: -.03em;
+  margin-bottom: 1.4rem;
+}
+h1 em { font-style: normal; color: var(--red); }
+
+.hero-desc {
+  color: var(--g5);
+  font-size: clamp(.92rem, 2vw, 1.05rem);
+  max-width: 400px;
+  margin-bottom: 2.2rem;
+  line-height: 1.7;
+}
+.hero-ctas {
+  display: flex;
+  gap: .85rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.hero-stats {
+  display: flex;
+  gap: clamp(1.5rem, 4vw, 2.5rem);
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,.06);
+  flex-wrap: wrap;
+}
+.stat-n {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.4rem, 3vw, 1.7rem);
+  color: var(--red);
+  line-height: 1;
+  margin-bottom: .2rem;
+}
+.stat-l {
+  font-size: .73rem;
+  color: var(--g4);
+  text-transform: uppercase;
+  letter-spacing: .07em;
+}
+
+.hero-img-wrap {
+  width: 100%;
+  aspect-ratio: 4/3;
+  border-radius: var(--rxl);
+  background: var(--g1);
+  border: 1px solid rgba(255,255,255,.07);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ════════════════════════════════════════
+   MARQUEE
+════════════════════════════════════════ */
+.marquee-bar {
+  overflow: hidden;
+  border-top: 1px solid rgba(255,255,255,.05);
+  border-bottom: 1px solid rgba(255,255,255,.05);
+  padding: .8rem 0;
+  background: var(--g1);
+}
+.marquee-track {
+  display: flex;
+  gap: 3rem;
+  animation: marquee 22s linear infinite;
+  width: max-content;
+}
+@keyframes marquee { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+.mq-item {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  font-size: .72rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--g4);
+  white-space: nowrap;
+}
+.mq-dot { width: 4px; height: 4px; background: var(--red); border-radius: 50%; flex-shrink: 0; }
+
+/* ════════════════════════════════════════
+   SPECS
+════════════════════════════════════════ */
+#specs { padding: clamp(4rem, 8vw, 7rem) 0; }
+.specs-header { margin-bottom: 3rem; }
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: var(--rlg);
+  overflow: hidden;
+}
+.spec-card {
+  background: var(--g1);
+  padding: clamp(1.5rem, 3vw, 2.25rem) clamp(1.25rem, 3vw, 2rem);
+  transition: background var(--t);
+  position: relative;
+}
+.spec-card:hover { background: #1e1e1e; }
+.spec-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 1.5rem;
+  width: 24px; height: 2px;
+  background: var(--red);
+  opacity: 0;
+  transition: opacity var(--t);
+}
+.spec-card:hover::after { opacity: 1; }
+.spec-icon {
+  width: 36px; height: 36px;
+  background: var(--red-dim);
+  border-radius: var(--r);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+.spec-icon svg { color: var(--red); }
+.spec-n {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  line-height: 1;
+  letter-spacing: -.02em;
+  margin-bottom: .15rem;
+}
+.spec-u { font-size: .9rem; font-weight: 300; color: var(--g4); margin-left: .15rem; }
+.spec-lbl { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--g4); margin-top: .35rem; }
+
+/* ════════════════════════════════════════
+   FEATURES
+════════════════════════════════════════ */
+#features { padding: clamp(4rem, 8vw, 7rem) 0; background: var(--g1); }
+.features-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(2.5rem, 6vw, 5rem);
+  align-items: center;
+  margin-top: 3.5rem;
+}
+.feat-list { display: flex; flex-direction: column; }
+.feat-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  transition: padding-left var(--t);
+  cursor: default;
+}
+.feat-item:first-child { border-top: 1px solid rgba(255,255,255,.06); }
+.feat-item:hover { padding-left: .5rem; }
+.feat-item-head { display: flex; align-items: center; gap: .9rem; margin-bottom: .35rem; }
+.feat-num { font-family: 'Syne', sans-serif; font-size: .68rem; font-weight: 700; color: var(--red); letter-spacing: .06em; min-width: 20px; }
+.feat-name { font-family: 'Syne', sans-serif; font-weight: 600; font-size: .98rem; }
+.feat-desc { font-size: .87rem; color: var(--g5); padding-left: 2rem; line-height: 1.65; }
+
+.feat-img-wrap {
+  aspect-ratio: 4/3;
+  border-radius: var(--rlg);
+  background: var(--g2);
+  border: 1px solid rgba(255,255,255,.06);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feat-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ════════════════════════════════════════
+   TEAM
+════════════════════════════════════════ */
+#equipo { padding: clamp(4rem, 8vw, 7rem) 0; }
+.team-header { text-align: center; margin-bottom: 3.5rem; }
+.team-header .section-tag { justify-content: center; }
+.team-header .section-tag::before { display: none; }
+.team-header .section-p { margin: .6rem auto 0; text-align: center; }
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+}
+.team-card {
+  background: var(--g1);
+  border: 1px solid rgba(255,255,255,.07);
+  border-radius: var(--rxl);
+  overflow: hidden;
+  transition: transform var(--t), border-color var(--t), box-shadow var(--t);
+}
+.team-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(26,111,232,.3);
+  box-shadow: 0 16px 40px rgba(0,0,0,.4);
+}
+.team-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--g2);
+  position: relative;
+  overflow: hidden;
+}
+.team-photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; display: block; }
+.team-info { padding: clamp(1.1rem, 2.5vw, 1.5rem); }
+.team-name {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: clamp(.95rem, 2vw, 1.1rem);
+  margin-bottom: .2rem;
+}
+.team-role {
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--red);
+  margin-bottom: 1rem;
+}
+.team-contacts { display: flex; flex-direction: column; gap: .4rem; }
+.team-contact {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .8rem;
+  color: var(--g5);
+  transition: color var(--t);
+  word-break: break-all;
+}
+.team-contact:hover { color: var(--white); }
+.team-contact svg { color: var(--g4); flex-shrink: 0; }
+
+/* ════════════════════════════════════════
+   FAQ
+════════════════════════════════════════ */
+#faq { padding: clamp(4rem, 8vw, 7rem) 0; background: var(--g1); }
+.faq-header { text-align: center; margin-bottom: 3rem; }
+.faq-header .section-tag { justify-content: center; }
+.faq-header .section-tag::before { display: none; }
+.faq-header .section-p { margin: .6rem auto 0; text-align: center; }
+
+.faq-list { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: .65rem; }
+.faq-item {
+  background: var(--black);
+  border: 1px solid rgba(255,255,255,.07);
+  border-radius: var(--rlg);
+  overflow: hidden;
+  transition: border-color var(--t);
+}
+.faq-item.active { border-color: rgba(26,111,232,.3); }
+.faq-q {
+  padding: 1.35rem 1.4rem;
+  font-weight: 500;
+  font-size: clamp(.88rem, 2vw, .95rem);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.faq-q svg { flex-shrink: 0; color: var(--g4); transition: transform var(--t), color var(--t); }
+.faq-item.active .faq-q svg { transform: rotate(45deg); color: var(--red); }
+.faq-a { max-height: 0; overflow: hidden; transition: max-height .35s ease; }
+.faq-a-inner { padding: 0 1.4rem 1.35rem; color: var(--g5); font-size: .88rem; line-height: 1.7; }
+.faq-item.active .faq-a { max-height: 240px; }
+
+/* ════════════════════════════════════════
+   RESERVA
+════════════════════════════════════════ */
+#reserva { padding: clamp(4rem, 8vw, 7rem) 0; position: relative; overflow: hidden; }
+.reserva-glow {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 60% 65% at 50% 0%, rgba(26,111,232,.07) 0%, transparent 65%);
+  pointer-events: none;
+}
+.reserva-wrap {
+  position: relative;
+  z-index: 2;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+.reserva-wrap .section-tag { justify-content: center; }
+.reserva-wrap .section-tag::before { display: none; }
+.reserva-wrap .section-p { margin: .6rem auto 0; }
+
+.reserva-card {
+  background: var(--g1);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 1.5rem;
+  padding: clamp(1.5rem, 4vw, 2.75rem);
+  margin-top: 2.25rem;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+.reserva-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 50%; transform: translateX(-50%);
+  width: 50%; height: 1px;
+  background: linear-gradient(90deg, transparent, var(--red), transparent);
+}
+.reserva-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+}
+.reserva-head-txt h3 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: clamp(1rem, 2.5vw, 1.15rem);
+  margin-bottom: .15rem;
+}
+.reserva-head-txt p { font-size: .8rem; color: var(--g4); }
+.reserva-badge {
+  background: var(--red-dim);
+  border: 1px solid rgba(26,111,232,.2);
+  border-radius: var(--r);
+  padding: .45rem .9rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+.count-n {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: var(--red);
+  line-height: 1;
+}
+.count-l { font-size: .65rem; text-transform: uppercase; letter-spacing: .07em; color: var(--g4); }
+
+.r-form { display: flex; flex-direction: column; gap: .85rem; }
+
+.ms-form-embed {
+  width: 100%;
+  border-radius: var(--rlg);
+  overflow: hidden;
+  background: var(--g1);
+  border: 1px solid rgba(255,255,255,.06);
+  margin-bottom: 1.25rem;
+}
+.ms-form-embed iframe { width: 100%; min-height: 600px; display: block; }
+@media (max-width: 640px) {
+  .ms-form-embed iframe { min-height: 720px; }
+}
+
+.r-row { display: grid; grid-template-columns: 1fr 1fr; gap: .85rem; }
+.r-group { display: flex; flex-direction: column; gap: .32rem; }
+.r-group label {
+  font-size: .7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--g4);
+}
+.r-group input,
+.r-group select {
+  background: var(--g2);
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: var(--r);
+  color: var(--white);
+  font-family: 'DM Sans', sans-serif;
+  font-size: clamp(.88rem, 2vw, .93rem);
+  font-weight: 300;
+  padding: .75rem 1rem;
+  outline: none;
+  width: 100%;
+  transition: border-color var(--t), background var(--t);
+  -webkit-appearance: none;
+  appearance: none;
+}
+.r-group input:focus, .r-group select:focus {
+  border-color: rgba(26,111,232,.5);
+  background: #1e1e1e;
+}
+.r-group input::placeholder { color: var(--g3); }
+.r-group select option { background: var(--g1); }
+
+.btn-submit {
+  width: 100%;
+  background: var(--red);
+  color: var(--white);
+  font-weight: 500;
+  font-size: clamp(.92rem, 2vw, .98rem);
+  padding: .9rem 2rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .55rem;
+  margin-top: .3rem;
+  transition: background var(--t), transform var(--t), box-shadow var(--t);
+  -webkit-tap-highlight-color: transparent;
+}
+.btn-submit:hover { background: #2c7ff0; transform: translateY(-1px); box-shadow: 0 12px 30px var(--red-glow); }
+.btn-submit:disabled { opacity: .6; pointer-events: none; }
+
+.r-disclaimer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4rem;
+  font-size: .72rem;
+  color: var(--g3);
+  margin-top: .7rem;
+  text-align: center;
+}
+.r-disclaimer svg { flex-shrink: 0; }
+
+.r-benefits {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.4rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid rgba(255,255,255,.05);
+}
+.r-ben { display: flex; align-items: center; gap: .4rem; font-size: .76rem; color: var(--g4); }
+.r-ben svg { color: var(--red); flex-shrink: 0; }
+
+/* Success state */
+.success-wrap {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: .9rem;
+  padding: 2.5rem 0;
+  text-align: center;
+}
+.success-icon {
+  width: 54px; height: 54px;
+  background: var(--red-dim);
+  border: 1px solid rgba(26,111,232,.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.success-wrap h3 { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.3rem; }
+.success-wrap p { font-size: .87rem; color: var(--g4); line-height: 1.65; }
+
+/* ════════════════════════════════════════
+   FOOTER
+════════════════════════════════════════ */
+footer { padding: 2.5rem 0; border-top: 1px solid rgba(255,255,255,.06); }
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.footer-copy { font-size: .76rem; color: var(--g3); }
+.footer-links { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+.footer-links a { font-size: .76rem; color: var(--g3); transition: color var(--t); }
+.footer-links a:hover { color: var(--g5); }
+
+.legal-disclaimer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,.06);
+  color: var(--g4);
+  font-size: .7rem;
+  line-height: 1.6;
+  opacity: .65;
+}
+.legal-disclaimer strong {
+  display: block;
+  font-size: .72rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--g5);
+  margin-bottom: .5rem;
+}
+.legal-disclaimer p { margin: 0 0 .5rem; }
+.legal-disclaimer p:last-child { margin-bottom: 0; }
+
+/* ════════════════════════════════════════
+   RESPONSIVE — TABLET (≤900px)
+════════════════════════════════════════ */
+@media (max-width: 900px) {
+  /* Nav */
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+
+  /* Hero */
+  .hero-inner { grid-template-columns: 1fr; gap: 2.5rem; padding: 2.5rem 0 3rem; }
+  .hero-right { display: none; } /* shows only on desktop */
+
+  /* Specs */
+  .specs-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* Features */
+  .features-layout { grid-template-columns: 1fr; gap: 2.5rem; }
+  .feat-img-wrap { aspect-ratio: 16/9; }
+
+  /* Team — tablet: 2 columns, last card centered */
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .team-grid .team-card:nth-child(3) {
+    grid-column: 1 / -1;
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* Form */
+  .r-row { grid-template-columns: 1fr 1fr; }
+
+  /* Footer */
+  .footer-inner { flex-direction: column; text-align: center; }
+  .footer-links { justify-content: center; }
+}
+
+/* ════════════════════════════════════════
+   RESPONSIVE — MOBILE (≤580px)
+════════════════════════════════════════ */
+@media (max-width: 580px) {
+  :root { --nav-h: 60px; }
+
+  .hero-desc { max-width: 100%; }
+  .hero-ctas { flex-direction: column; align-items: flex-start; }
+  .hero-ctas .btn, .hero-ctas .btn-outline { width: 100%; justify-content: center; }
+  .hero-stats { gap: 1.25rem; }
+
+  /* Specs: 1 column */
+  .specs-grid { grid-template-columns: 1fr; }
+
+  /* Team: 1 column */
+  .team-grid {
+    grid-template-columns: 1fr;
+    max-width: 360px;
+  }
+  .team-grid .team-card:nth-child(3) {
+    grid-column: auto;
+    max-width: 100%;
+  }
+
+  /* Form: 1 column */
+  .r-row { grid-template-columns: 1fr; }
+
+  /* FAQ */
+  .faq-q { font-size: .88rem; padding: 1.1rem 1.15rem; }
+
+  /* Marquee pause on mobile to save battery */
+  .marquee-track { animation-duration: 30s; }
+
+  /* Feature img: keep it for mobile */
+  .feat-img-wrap { display: flex; }
+}
+
+/* ════════════════════════════════════════
+   RESPONSIVE — SMALL MOBILE (≤380px)
+════════════════════════════════════════ */
+@media (max-width: 380px) {
+  h1 { font-size: 2.4rem; }
+  .btn, .btn-outline { font-size: .83rem; padding: .65rem 1.25rem; }
+  .reserva-head { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <div class="container nav-inner">
+    <a href="index.html" class="logo"><img src="logo-transparent.png" alt="AVIDO" style="height:38px;width:auto;display:block;"></a>
+    <ul class="nav-links">
+      <li><a href="specs.html">Specs</a></li>
+      <li><a href="diseno.html">Diseño</a></li>
+      <li><a href="equipo.html">Equipo</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="#reserva" class="btn">
+        Reservar
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile drawer -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="specs.html" class="mm-link">Specs</a>
+  <a href="diseno.html" class="mm-link">Diseño</a>
+  <a href="equipo.html" class="mm-link">Equipo</a>
+  <a href="faq.html" class="mm-link">FAQ</a>
+  <a href="#reserva" class="btn">
+    Reservar
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </a>
+</div>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="container">
+    <div class="hero-inner">
+
+      <div class="hero-left">
+        <div class="hero-tag">100% Innovación Mexicana</div>
+        <h1>El futuro<br>es <em>eléctrico</em><br>y es mexicano</h1>
+        <p class="hero-desc">AVIDO es un vehículo eléctrico compacto de dos plazas. Sin emisiones, sin límites, hecho en México.</p>
+        <div class="hero-ctas">
+          <a href="#reserva" class="btn">
+            Reservar mi lugar
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="specs.html" class="btn-outline">Ver especificaciones</a>
+        </div>
+        <div class="hero-stats">
+          <div><div class="stat-n">65 km/h</div><div class="stat-l">Vel. máxima</div></div>
+          <div><div class="stat-n">100 km</div><div class="stat-l">Autonomía</div></div>
+          <div><div class="stat-n">2</div><div class="stat-l">Plazas</div></div>
+        </div>
+      </div>
+
+<div class="hero-right">
+        <div class="hero-img-wrap">
+          <img src="carro.jpg" alt="AVIDO EV">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ MARQUEE ══ -->
+<div class="marquee-bar">
+  <div class="marquee-track">
+    <div class="mq-item"><span class="mq-dot"></span>Vehículo Eléctrico Compacto</div>
+    <div class="mq-item"><span class="mq-dot"></span>Dos Plazas</div>
+    <div class="mq-item"><span class="mq-dot"></span>Cero Emisiones</div>
+    <div class="mq-item"><span class="mq-dot"></span>Hecho en México</div>
+    <div class="mq-item"><span class="mq-dot"></span>Tecnología Propia</div>
+    <div class="mq-item"><span class="mq-dot"></span>Innovación Nacional</div>
+    <div class="mq-item"><span class="mq-dot"></span>Movilidad Urbana</div>
+    <!-- duplicate -->
+    <div class="mq-item"><span class="mq-dot"></span>Vehículo Eléctrico Compacto</div>
+    <div class="mq-item"><span class="mq-dot"></span>Dos Plazas</div>
+    <div class="mq-item"><span class="mq-dot"></span>Cero Emisiones</div>
+    <div class="mq-item"><span class="mq-dot"></span>Hecho en México</div>
+    <div class="mq-item"><span class="mq-dot"></span>Tecnología Propia</div>
+    <div class="mq-item"><span class="mq-dot"></span>Innovación Nacional</div>
+    <div class="mq-item"><span class="mq-dot"></span>Movilidad Urbana</div>
+  </div>
+</div>
+
+<!-- ══ SPECS ══ -->
+<section id="specs">
+  <div class="container">
+    <div class="specs-header reveal">
+      <div class="section-tag">Especificaciones técnicas</div>
+      <h2 class="section-h">Ingenierizado<br>para <em>el futuro</em></h2>
+    </div>
+    <div class="specs-grid reveal">
+      <div class="spec-card">
+        <div class="spec-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <div class="spec-n">8<span class="spec-u">hp</span></div>
+        <div class="spec-lbl">Motor eléctrico</div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
+        <div class="spec-n">100<span class="spec-u">km</span></div>
+        <div class="spec-lbl">Autonomía promedio</div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/></svg></div>
+        <div class="spec-n">65<span class="spec-u">km/h</span></div>
+        <div class="spec-lbl">Velocidad máxima</div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+        <div class="spec-n">2<span class="spec-u">plazas</span></div>
+        <div class="spec-lbl">Pasajeros</div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="6" width="22" height="12" rx="2"/><path d="M23 13v-2"/></svg></div>
+        <div class="spec-n">0<span class="spec-u">CO₂</span></div>
+        <div class="spec-lbl">Emisiones directas</div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <div class="spec-n">5x<span class="spec-u">menos</span></div>
+        <div class="spec-lbl">Costo por km vs gasolina</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FEATURES ══ -->
+<section id="features">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-tag">Por qué AVIDO</div>
+      <h2 class="section-h">Cada detalle,<br><em>pensado para ti</em></h2>
+    </div>
+    <div class="features-layout">
+      <div class="feat-list reveal">
+        <div class="feat-item">
+          <div class="feat-item-head"><span class="feat-num">01</span><span class="feat-name">Movilidad eléctrica accesible</span></div>
+          <p class="feat-desc">El primer EV compacto diseñado para la realidad mexicana, con costos de operación mínimos.</p>
+        </div>
+        <div class="feat-item">
+          <div class="feat-item-head"><span class="feat-num">02</span><span class="feat-name">Compacto para la ciudad</span></div>
+          <p class="feat-desc">Diseño optimizado para el tráfico urbano. Estacionamiento fácil, maniobra ágil, consumo inteligente.</p>
+        </div>
+        <div class="feat-item">
+          <div class="feat-item-head"><span class="feat-num">03</span><span class="feat-name">Innovación 100% nacional</span></div>
+          <p class="feat-desc">Desarrollado por completo en México. Tecnología de punta con orgullo nacional.</p>
+        </div>
+        <div class="feat-item">
+          <div class="feat-item-head"><span class="feat-num">04</span><span class="feat-name">Carga simple</span></div>
+          <p class="feat-desc">Compatible con infraestructura estándar. Conecta en casa o en puntos de carga públicos.</p>
+        </div>
+      </div>
+<div class="feat-img-wrap reveal">
+        <img src="detalle.jpg" alt="Detalle AVIDO">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EQUIPO ══ -->
+<section id="equipo">
+  <div class="container">
+    <div class="team-header reveal">
+      <div class="section-tag">El equipo</div>
+      <h2 class="section-h">Las mentes que lo<br><em>hicieron posible</em></h2>
+      <p class="section-p">Un equipo apasionado por la movilidad eléctrica y la ingeniería mexicana.</p>
+    </div>
+    <div class="team-grid reveal">
+
+      <!-- Luis -->
+      <div class="team-card">
+        <div class="team-photo"><img src="foto-nicole.png" alt="Nicole Hernández"></div>
+        <div class="team-info">
+          <div class="team-name">Nicole Hernández</div>
+          <div class="team-role">Co-fundadora</div>
+          <div class="team-contacts">
+            <a href="mailto:nh164647@gmail.com" class="team-contact"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> nh164647@gmail.com</a>
+            <a href="https://www.linkedin.com/in/nicole-sofia-hern%C3%A1ndez-cumplido-22a49140a/" target="_blank" rel="noopener" class="team-contact"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nicole -->
+      <div class="team-card">
+        <div class="team-photo"><img src="foto-luis.png" alt="Luis Fernando Fierros"></div>
+        <div class="team-info">
+          <div class="team-name">Luis Fernando Fierros</div>
+          <div class="team-role">Fundador</div>
+          <div class="team-contacts">
+            <a href="mailto:luisfierros@avido.com.mx" class="team-contact"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> luisfierros@avido.com.mx</a>
+            <a href="https://www.linkedin.com/in/luis-fernando-fierros-sanvicente-700652234/" target="_blank" rel="noopener" class="team-contact"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Maripaz -->
+      <div class="team-card">
+        <div class="team-photo"><img src="foto-maripaz.png" alt="María de la Paz Llanez"></div>
+        <div class="team-info">
+          <div class="team-name">María de la Paz Llanez</div>
+          <div class="team-role">Co-fundadora</div>
+          <div class="team-contacts">
+            <a href="mailto:Maripazllg@gmail.com" class="team-contact"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> Maripazllg@gmail.com</a>
+            <a href="https://www.linkedin.com/in/mar%C3%ADa-de-la-paz-llanez-garc%C3%ADa-432915302/" target="_blank" rel="noopener" class="team-contact"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg> LinkedIn</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FAQ ══ -->
+<section id="faq">
+  <div class="container">
+    <div class="faq-header reveal">
+      <div class="section-tag">Preguntas frecuentes</div>
+      <h2 class="section-h">Todo lo que<br><em>necesitas saber</em></h2>
+      <p class="section-p">Si tienes más preguntas, escríbenos directamente.</p>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <div class="faq-q">¿Cómo funciona el registro de interés?
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Llena el formulario en esta página. No se requiere ningún depósito ni pago. Solo registras tu interés y nosotros te contactamos con información detallada cuando el vehículo esté disponible.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Cuándo estará disponible el AVIDO?
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">El primer prototipo ya fue presentado. Los registros en lista de espera tendrán acceso prioritario a toda la información de producción y entrega.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Cuánto costará el vehículo?
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">El precio de venta está en definición. El objetivo es que sea el EV más accesible del mercado mexicano. Los registrados serán los primeros en conocerlo.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿Puedo cargar el AVIDO en casa?
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Sí. El AVIDO es compatible con infraestructura de carga estándar. Puedes cargarlo desde un contacto doméstico o en puntos de carga pública disponibles en México.</div></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">¿El AVIDO tiene garantía?
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">Sí. El plan de garantía se anunciará con los detalles finales del producto. Los registrados recibirán esta información antes que el público general.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ RESERVA ══ -->
+<section id="reserva">
+  <div class="reserva-glow"></div>
+  <div class="container">
+    <div class="reserva-wrap">
+      <div class="section-tag reveal">Sé el primero</div>
+      <h2 class="section-h reveal">Reserva tu <em>AVIDO</em></h2>
+      <p class="section-p reveal">Registra tu interés sin costo ni compromiso. Te contactaremos cuando esté disponible.</p>
+
+      <div class="reserva-card reveal">
+        <div id="form-wrap">
+          <div class="reserva-head">
+            <div class="reserva-head-txt">
+              <h3>Registra tu lugar</h3>
+              <p>Sin costo · Sin compromiso · Solo interés</p>
+            </div>
+
+          </div>
+
+          <!-- Formulario de reserva (Microsoft Forms) -->
+          <div class="ms-form-embed">
+            <iframe title="Reserva tu AVIDO" width="100%" height="600" src="https://forms.office.com/r/nVSCZ8ukYX?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border:none; max-width:100%; max-height:100vh; display:block;" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen></iframe>
+          </div>
+
+          <p class="r-disclaimer">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            Tus datos son confidenciales. Sin spam.
+          </p>
+          <div class="r-benefits">
+            <div class="r-ben"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Acceso prioritario</div>
+            <div class="r-ben"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Sin depósito</div>
+            <div class="r-ben"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Info exclusiva</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container footer-inner">
+    <a href="index.html" class="logo"><img src="logo-transparent.png" alt="AVIDO" style="height:30px;width:auto;display:block;"></a>
+    <p class="footer-copy">© 2026 AVIDO</p>
+    <div class="footer-links">
+      <a href="specs.html">Specs</a>
+      <a href="diseno.html">Diseño</a>
+      <a href="equipo.html">Equipo</a>
+      <a href="#reserva">Reservar</a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="legal-disclaimer">
+      <strong>Aviso importante</strong>
+      <p>AVIDO es un proyecto en desarrollo. Toda la información, imágenes, renders, especificaciones técnicas, autonomía, características y objetivos mostrados en esta página web tienen fines informativos y representan únicamente el estado actual del proyecto.</p>
+      <p>Nada de lo presentado constituye una promesa, garantía o compromiso de que el producto final será igual a lo mostrado. El diseño, las especificaciones técnicas, el desempeño, los objetivos, el alcance e incluso la continuidad del proyecto pueden cambiar significativamente o cancelarse sin previo aviso.</p>
+      <p>Se recomienda no generar expectativas ni tomar decisiones basadas en la información publicada, ya que el desarrollo y resultado final del proyecto no están garantizados.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ── Reveal on scroll ── */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); }
+  });
+}, { threshold: .08 });
+document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+/* ── Hamburger menu ── */
+const ham = document.getElementById('ham');
+const mobileMenu = document.getElementById('mobileMenu');
+
+ham.addEventListener('click', () => {
+  const open = ham.classList.toggle('open');
+  if (open) {
+    mobileMenu.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  } else {
+    mobileMenu.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+});
+
+// Close on link tap
+mobileMenu.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => {
+    ham.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    document.body.style.overflow = '';
+  });
+});
+
+// Close on outside tap
+document.addEventListener('click', e => {
+  if (!ham.contains(e.target) && !mobileMenu.contains(e.target)) {
+    ham.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+});
+
+/* ── FAQ accordion ── */
+document.querySelectorAll('.faq-q').forEach(q => {
+  q.addEventListener('click', () => {
+    const item = q.parentElement;
+    const wasOpen = item.classList.contains('active');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+    if (!wasOpen) item.classList.add('active');
+  });
+});
+
+/* ── Formulario de reserva: gestionado por Microsoft Forms (iframe embebido arriba) ── */
+</script>
+</body>
+</html>
